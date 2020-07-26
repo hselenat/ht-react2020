@@ -1,24 +1,20 @@
+/*
+ * @name: 组件名
+ * @Description: 组件描述
+ * @module: 组件存放位置
+ * @Version: 0.1.0
+ * @Autor: hselenat
+ * @Date: 2020-07-26 16:38:44
+ * @LastEditors: hselenat
+ * @LastEditTime: 2020-07-26 17:37:02
+ * @example: 调用示例
+ */ 
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      app
     </div>
   );
 }
