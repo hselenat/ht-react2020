@@ -6,17 +6,23 @@
  * @Autor: hselenat
  * @Date: 2020-07-26 16:38:44
  * @LastEditors: hselenat
- * @LastEditTime: 2020-07-26 17:37:02
+ * @LastEditTime: 2020-07-26 20:31:07
  * @example: 调用示例
  */ 
-import React from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      app
-    </div>
-  );
+import React, { Component } from 'react'
+import Button from 'antd/es/button'
+import "antd/dist/antd.css"
+import IndexPage from "./pages/IndexPage";
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <IndexPage />
+        <Button type="primary">annie</Button>
+      </div>
+    )
+  }
 }
-
-export default App;
+export default App
